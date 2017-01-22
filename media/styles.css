@@ -1,0 +1,41 @@
+:root{
+    --color-primary:#607D8B;
+    --color-primary-dark:#455A64;
+    --color-primary-light:#CFD8DC;
+    --color-accent:#CDDC39;
+    --color-primary-text:#212121;
+    --color-secondary-text:#757575;
+    --color-icons:#FFFFFF;
+    --color-divider:#BDBDBD;
+}
+
+body{
+	background-color: var(--color-primary-light);
+}
+
+#mainScreen{
+	margin-top:60px;
+}
+
+.navbar{
+	background-color: var(--color-primary);
+    font-weight: bold;
+    color: var(--color-icons);
+}
+
+.navbar a{
+    color: var(--color-icons);    
+}
+
+.navbar .active a{
+    color: var(--color-accent);
+}
+
+.navbar li a:hover{
+    background-color: var(--color-accent);
+    color: var(--color-secondary-text);
+}
+
+.container{
+    color: var(--color-primary-text);
+}
