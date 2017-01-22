@@ -1,0 +1,1 @@
+Web Application for Show Me The Money. The idea is to use the same backend for both the Android client and this web client. Also the idea of the web client is to run exclusively on the browser so there is only a requirement of a "file deliverer" web server for this and nothing more.
